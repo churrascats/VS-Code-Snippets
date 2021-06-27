@@ -36,6 +36,10 @@
 		"prefix": "pi",
 		"body": "public int $0"
 	},
+	"Generate a public boolean signature": {
+		"prefix": "pb",
+		"body": "public boolean $0"
+	},
 	"Generate a public double signature": {
 		"prefix": "pd",
 		"body": "public double $0"
@@ -55,6 +59,42 @@
 	"Generate a public set signature": {
 		"prefix": "pset",
 		"body": "public Set<Object> $0"
+	},
+	"Generate a private void signature": {
+		"prefix": "prv",
+		"body": "private void $0"
+	},
+	"Generate a private String signature": {
+		"prefix": "prs",
+		"body": "private String $0"
+	},
+	"Generate a private int signature": {
+		"prefix": "pri",
+		"body": "private int $0"
+	},
+	"Generate a private boolean signature": {
+		"prefix": "prb",
+		"body": "private boolean $0"
+	},
+	"Generate a private double signature": {
+		"prefix": "prd",
+		"body": "private double $0"
+	},
+	"Generate a private long signature": {
+		"prefix": "prl",
+		"body": "private long $0"
+	},
+	"Generate a private list signature": {
+		"prefix": "prlist",
+		"body": "private List<Object> $0"
+	},
+	"Generate a private map signature": {
+		"prefix": "prmap",
+		"body": "private Map<Object> $0"
+	},
+	"Generate a private set signature": {
+		"prefix": "prset",
+		"body": "private Set<Object> $0"
 	},
 	"Generate a private final attribute": {
 		"prefix": "prf",
