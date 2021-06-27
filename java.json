@@ -14,7 +14,7 @@
 	// }
 	"Java Bootstrap": {
 		"prefix": "psvm",
-		"body": "\tpublic static void main(String[] args){\n\t\t$0\n\t}"
+		"body": "public static void main(String[] args){\n\t$0\n}"
 	},
 	"Generate a Public Class": {
 		"prefix": "gpc",
@@ -55,5 +55,13 @@
 	"Generate a public set signature": {
 		"prefix": "pset",
 		"body": "public Set<Object> $0"
+	},
+	"Generate a private final attribute": {
+		"prefix": "prf",
+		"body": "private final $0"
+	},
+	"Generate a public final attribute": {
+		"prefix": "pf",
+		"body": "public final $0"
 	}
 }
