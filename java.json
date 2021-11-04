@@ -1,107 +1,98 @@
 {
-	// Place your snippets for java here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-	"Java Bootstrap": {
-		"prefix": "psvm",
-		"body": "public static void main(String[] args){\n\t$0\n}"
-	},
-	"Generate a Public Class": {
-		"prefix": "gpc",
-		"body": "public class $0{\n\n}"
-	},
-	"Generate a Public Interface": {
-		"prefix": "gpi",
-		"body": "public interface $0{\n\n}"
-	},
-	"Generate a public void signature": {
-		"prefix": "pv",
-		"body": "public void $0"
-	},
-	"Generate a public String signature": {
-		"prefix": "ps",
-		"body": "public String $0"
-	},
-	"Generate a public int signature": {
-		"prefix": "pi",
-		"body": "public int $0"
-	},
-	"Generate a public boolean signature": {
-		"prefix": "pb",
-		"body": "public boolean $0"
-	},
-	"Generate a public double signature": {
-		"prefix": "pd",
-		"body": "public double $0"
-	},
-	"Generate a public long signature": {
-		"prefix": "pl",
-		"body": "public long $0"
-	},
-	"Generate a public list signature": {
-		"prefix": "plist",
-		"body": "public List<Object> $0"
-	},
-	"Generate a public map signature": {
-		"prefix": "pmap",
-		"body": "public Map<Object> $0"
-	},
-	"Generate a public set signature": {
-		"prefix": "pset",
-		"body": "public Set<Object> $0"
-	},
-	"Generate a private void signature": {
-		"prefix": "prv",
-		"body": "private void $0"
-	},
-	"Generate a private String signature": {
-		"prefix": "prs",
-		"body": "private String $0"
-	},
-	"Generate a private int signature": {
-		"prefix": "pri",
-		"body": "private int $0"
-	},
-	"Generate a private boolean signature": {
-		"prefix": "prb",
-		"body": "private boolean $0"
-	},
-	"Generate a private double signature": {
-		"prefix": "prd",
-		"body": "private double $0"
-	},
-	"Generate a private long signature": {
-		"prefix": "prl",
-		"body": "private long $0"
-	},
-	"Generate a private list signature": {
-		"prefix": "prlist",
-		"body": "private List<Object> $0"
-	},
-	"Generate a private map signature": {
-		"prefix": "prmap",
-		"body": "private Map<Object> $0"
-	},
-	"Generate a private set signature": {
-		"prefix": "prset",
-		"body": "private Set<Object> $0"
-	},
-	"Generate a private final attribute": {
-		"prefix": "prf",
-		"body": "private final $0"
-	},
-	"Generate a public final attribute": {
-		"prefix": "pf",
-		"body": "public final $0"
-	}
+  "Java Bootstrap": {
+    "prefix": "psvm",
+    "body": "public static void main(String[] args){\n\t$0\n}"
+  },
+  "Generate a Public Class": {
+    "prefix": "gpc",
+    "body": "public class $0{\n\n}"
+  },
+  "Generate a Public Interface": {
+    "prefix": "gpi",
+    "body": "public interface $0{\n\n}"
+  },
+  "Generate a public void signature": {
+    "prefix": "pv",
+    "body": "public void $0"
+  },
+  "Generate a public String signature": {
+    "prefix": "ps",
+    "body": "public String $0"
+  },
+  "Generate a public int signature": {
+    "prefix": "pi",
+    "body": "public int $0"
+  },
+  "Generate a public boolean signature": {
+    "prefix": "pb",
+    "body": "public boolean $0"
+  },
+  "Generate a public double signature": {
+    "prefix": "pd",
+    "body": "public double $0"
+  },
+  "Generate a public long signature": {
+    "prefix": "pl",
+    "body": "public long $0"
+  },
+  "Generate a public list signature": {
+    "prefix": "plist",
+    "body": "public List<Object> $0"
+  },
+  "Generate a public map signature": {
+    "prefix": "pmap",
+    "body": "public Map<Object> $0"
+  },
+  "Generate a public set signature": {
+    "prefix": "pset",
+    "body": "public Set<Object> $0"
+  },
+  "Generate a private void signature": {
+    "prefix": "prv",
+    "body": "private void $0"
+  },
+  "Generate a private String signature": {
+    "prefix": "prs",
+    "body": "private String $0"
+  },
+  "Generate a private static signature": {
+    "prefix": "prsa",
+    "body": "private static $0"
+  },
+  "Generate a private int signature": {
+    "prefix": "pri",
+    "body": "private int $0"
+  },
+  "Generate a private boolean signature": {
+    "prefix": "prb",
+    "body": "private boolean $0"
+  },
+  "Generate a private double signature": {
+    "prefix": "prd",
+    "body": "private double $0"
+  },
+  "Generate a private long signature": {
+    "prefix": "prl",
+    "body": "private long $0"
+  },
+  "Generate a private list signature": {
+    "prefix": "prlist",
+    "body": "private List<Object> $0"
+  },
+  "Generate a private map signature": {
+    "prefix": "prmap",
+    "body": "private Map<Object> $0"
+  },
+  "Generate a private set signature": {
+    "prefix": "prset",
+    "body": "private Set<Object> $0"
+  },
+  "Generate a private final attribute": {
+    "prefix": "prf",
+    "body": "private final $0"
+  },
+  "Generate a public final attribute": {
+    "prefix": "pf",
+    "body": "public final $0"
+  }
 }
